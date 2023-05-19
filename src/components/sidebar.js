@@ -74,7 +74,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-[25vw] bg-[#666666] text-[1.1vw] flex flex-col items-center space-y-7 h-fit mt-[10vh] w-fit p-4 mr-[5vw] mb-[4vw]">
+    <div className="w-[25vw] bg-[#666666] text-[1.1vw] flex flex-col items-center space-y-7 h-fit mt-[10vh] w-fit md:p-4 py-4 mr-[5vw] mb-[4vw]">
       <header className="font-bold">Trending songs</header>
 
       <div className="flex flex-col space-y-6">
